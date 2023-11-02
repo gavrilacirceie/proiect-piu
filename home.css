@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #pokemon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #search-input {
+    margin-right: 10px; /* Spațiu între caseta de căutare și butonul de căutare */
+  }
+
+#filtered-pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pokemon-card {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#search-container {
+    margin-bottom: 500px;
+    position: fixed;
+}
+
+#search-input, #search-button {
+    margin-right: 10px;
+}
+
